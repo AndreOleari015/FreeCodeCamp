@@ -1,0 +1,85 @@
+body {
+    background-color: #232323;
+    color: #fff;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    color: #ffc107;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px #333;
+    margin: 40px 0;
+  }
+  
+  legend {
+    color: #9c27b0;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #333;
+  }
+  
+  #img-div {
+    margin: 40px 0;
+    padding: 20px;
+  }
+  
+  #tribute-info {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 20px;
+  }
+  
+  #tribute-link {
+    color: #ffc107;
+    display: block;
+    font-size: 18px;
+    margin: 40px auto;
+    max-width: 80%;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #333;
+  }
+  
+  #main {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  #img-caption {
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+  }
+  
+  figcaption {
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  #title:hover {
+    color: #ffc107;
+    text-shadow: 2px 2px 4px #333, 0 0 10px #ffc107;
+  }
+  
+  #tribute-link:hover {
+    color: #fff;
+    text-shadow: 1px 1px 2px #333, 0 0 10px #ffc107;
+  }
+  
+  #image{
+    max-height:300px;
+    max-width:100%;
+    height:auto;
+    display:block;
+    margin:auto;
+  }
